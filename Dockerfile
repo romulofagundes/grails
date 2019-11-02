@@ -14,5 +14,5 @@ RUN apk update && \
     ln -s grails-$GRAILS_VERSION grails
 
 # Setup Grails path.
-ENV GRAILS_HOME /usr/lib/jvm/grails
+ENV GRAILS_HOME /opt/java/openjdk/grails
 ENV PATH $GRAILS_HOME/bin:$PATH
